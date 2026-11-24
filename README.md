@@ -9,6 +9,7 @@ Use them with Claude Code, Codex, or another agent that supports `SKILL.md` skil
 | --- | --- | --- |
 | [scan](skills/scan/SKILL.md) | "scan this repo" | Finds project conventions, reusable code, and recurring review expectations before coding. |
 | [review-pr](skills/review-pr/SKILL.md) | "review this PR" | Reviews an open PR with one reviewer and returns actionable comment drafts in the thread. |
+| [debrief](skills/debrief/SKILL.md) | "debrief" | Explains finished agent work briefly: why each change exists, what's new, and the blast radius. |
 | [skill-composer](skills/skill-composer/SKILL.md) | "compose a skill" | Writes concise skills with useful triggers, instructions, and validation. |
 | [grill-me](skills/grill-me/SKILL.md) | "grill me" | Stress-tests an idea through rounds of independent questions and recommended answers. |
 | [prettyfier](skills/prettyfier/SKILL.md) | "prettyfier" | Reviews or improves code readability while preserving behavior. |
