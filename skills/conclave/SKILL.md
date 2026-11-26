@@ -49,7 +49,11 @@ score override an unresolved issue.
 
 Inspect every response. Check findings yourself, combine duplicates, and preserve
 disagreements. Prefer evidence over votes or scores. Reject scope expansion and
-unsupported suggestions with a reason. A missing response is incomplete review.
+unsupported suggestions with a reason. Tag each finding as a requirement
+violation, a bug on input that can realistically occur, a breach of the user's
+or project's written rules, or speculative. Only the first three are
+substantive; list speculative ones as not applied. A missing response is
+incomplete review.
 
 For authorized implementation, make the smallest justified fixes, verify them,
 then ask the same reviewers to recheck changed behavior and unresolved findings.
