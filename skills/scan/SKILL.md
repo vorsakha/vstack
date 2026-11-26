@@ -1,6 +1,7 @@
 ---
 name: scan
 description: Use before coding to learn a project's conventions and recurring review expectations.
+disable-model-invocation: true
 ---
 
 # Scan

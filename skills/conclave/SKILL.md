@@ -1,6 +1,7 @@
 ---
 name: conclave
 description: Use when the user requests a conclave or independent assessments from multiple AI models.
+disable-model-invocation: true
 ---
 
 # Conclave

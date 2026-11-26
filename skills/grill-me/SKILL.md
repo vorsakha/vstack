@@ -1,6 +1,7 @@
 ---
 name: grill-me
 description: Use when the user wants a grilling interview to stress-test a plan, decision, or idea.
+disable-model-invocation: true
 ---
 
 # Grill me

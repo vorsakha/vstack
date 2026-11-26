@@ -1,6 +1,7 @@
 ---
 name: review-pr
 description: Use when reviewing an existing open GitHub pull request and drafting review comments in the current thread.
+disable-model-invocation: true
 ---
 
 # Review PR

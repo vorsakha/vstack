@@ -1,6 +1,7 @@
 ---
 name: debrief
 description: Use after an agent finishes implementing a feature or task, when the user wants to understand what changed, why, how it was before, and the blast radius.
+disable-model-invocation: true
 ---
 
 # Debrief
