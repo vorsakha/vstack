@@ -24,10 +24,12 @@ Recover what reviewers objected to, how the author responded, and what ultimatel
 landed. Check that the lesson still applies to current code. A resolved thread
 or merged PR does not make every suggestion a project rule.
 
-Prefer current scoped instructions and repeated local patterns. Separate durable
-expectations from isolated preferences, legacy code, and guesses. Investigate
-conflicting evidence; don't invent consensus. If history is unavailable, say so
-and continue locally. Stop when further searches repeat what you already know.
+Prefer current scoped instructions and repeated local patterns. Local patterns
+and repository instructions inform how to fit the codebase; they do not override
+explicit task requirements or user rules. Separate durable expectations from
+isolated preferences, legacy code, and guesses. Investigate conflicting
+evidence; don't invent consensus. If history is unavailable, say so and continue
+locally. Stop when further searches repeat what you already know.
 
 Return a short brief with concrete examples to follow, existing code to reuse,
 review objections to avoid, and expected validation and PR details. Link the files
