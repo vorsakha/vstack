@@ -8,6 +8,7 @@ Use them with Claude Code, Codex, or another agent that supports `SKILL.md` skil
 | Skill | Say | What it does |
 | --- | --- | --- |
 | [scan](skills/scan/SKILL.md) | "scan this repo" | Finds project conventions, reusable code, and recurring review expectations before coding. |
+| [do](skills/do/SKILL.md) | "/do PROJ-123" | Takes a task, idea, or ticket from brief through implementation, verification, and review. |
 | [review-pr](skills/review-pr/SKILL.md) | "review this PR" | Reviews an open PR with one reviewer and returns actionable comment drafts in the thread. |
 | [debrief](skills/debrief/SKILL.md) | "debrief" | Explains finished agent work briefly: why each change exists, what's new, and the blast radius. |
 | [skill-composer](skills/skill-composer/SKILL.md) | "compose a skill" | Writes concise skills with useful triggers, instructions, and validation. |
@@ -34,6 +35,9 @@ For other agents, copy the selected folders into their supported skills director
 
 - `scan` benefits from repository history and access to review discussions. On
   GitHub, use an authenticated GitHub CLI or connector.
+- `do` uses `scan`, `grill-me`, and `test-audit` when applicable, and needs
+  delegation tools to launch independent read-only reviewers across model
+  providers.
 - `review-pr` uses `scan` and needs delegation tools with access to the selected
   reviewer model. It defaults to GPT Sol unless you request another reviewer.
 - `grill-me` uses read-only research subagents to look up facts when needed.
